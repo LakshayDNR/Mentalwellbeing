@@ -1,0 +1,83 @@
+{
+  "features": {
+    "anxiety": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Anxiety"
+    },
+    "depression": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Depression"
+    },
+    "headache_frequency": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Headache Frequency"
+    },
+    "sleep_deprivation": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Sleep Deprivation"
+    },
+    "academic_workload": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Academic Workload"
+    },
+    "exam_panic": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Exam Panic"
+    },
+    "poor_living_condition": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Poor Living Condition"
+    },
+    "lack_of_social_support": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Lack Of Social Support"
+    },
+    "peer_competition_pressure": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Peer Competition Pressure"
+    },
+    "future_career_worry": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Future Career Worry"
+    },
+    "financial_hardship": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Financial Hardship"
+    },
+    "physical_exhaustion": {
+      "min": 0,
+      "max": 5,
+      "default": 1,
+      "label": "Physical Exhaustion"
+    }
+  },
+  "classes": [
+    "Low",
+    "Moderate",
+    "High"
+  ],
+  "test_accuracy": 87.92,
+  "best_model": "Random Forest"
+}
